@@ -1,0 +1,200 @@
+Tue Sep  9 08:58:52 UTC 2025
+======= Snapshot of all running processes =======
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.3 168148 12072 ?        Ss   Aug31   0:31 /lib/systemd/systemd --system --deserialize=52
+root           2  0.0  0.0      0     0 ?        S    Aug31   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   Aug31   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   Aug31   0:00 [rcu_par_gp]
+root           5  0.0  0.0      0     0 ?        I<   Aug31   0:00 [slub_flushwq]
+root           6  0.0  0.0      0     0 ?        I<   Aug31   0:00 [netns]
+root           8  0.0  0.0      0     0 ?        I<   Aug31   0:00 [kworker/0:0H-events_highpri]
+root          10  0.0  0.0      0     0 ?        I<   Aug31   0:00 [mm_percpu_wq]
+root          11  0.0  0.0      0     0 ?        I    Aug31   0:00 [rcu_tasks_kthread]
+root          12  0.0  0.0      0     0 ?        I    Aug31   0:00 [rcu_tasks_rude_kthread]
+root          13  0.0  0.0      0     0 ?        I    Aug31   0:00 [rcu_tasks_trace_kthread]
+root          14  0.0  0.0      0     0 ?        S    Aug31   0:19 [ksoftirqd/0]
+root          15  0.0  0.0      0     0 ?        I    Aug31   1:03 [rcu_preempt]
+root          16  0.0  0.0      0     0 ?        S    Aug31   0:03 [migration/0]
+root          18  0.0  0.0      0     0 ?        S    Aug31   0:00 [cpuhp/0]
+root          19  0.0  0.0      0     0 ?        S    Aug31   0:00 [cpuhp/1]
+root          20  0.0  0.0      0     0 ?        S    Aug31   0:03 [migration/1]
+root          21  0.0  0.0      0     0 ?        S    Aug31   0:20 [ksoftirqd/1]
+root          23  0.0  0.0      0     0 ?        I<   Aug31   0:00 [kworker/1:0H-events_highpri]
+root          26  0.0  0.0      0     0 ?        S    Aug31   0:00 [kdevtmpfs]
+root          27  0.0  0.0      0     0 ?        I<   Aug31   0:00 [inet_frag_wq]
+root          28  0.0  0.0      0     0 ?        S    Aug31   0:00 [kauditd]
+root          30  0.0  0.0      0     0 ?        S    Aug31   0:00 [khungtaskd]
+root          31  0.0  0.0      0     0 ?        S    Aug31   0:00 [oom_reaper]
+root          33  0.0  0.0      0     0 ?        I<   Aug31   0:00 [writeback]
+root          34  0.0  0.0      0     0 ?        S    Aug31   0:19 [kcompactd0]
+root          35  0.0  0.0      0     0 ?        SN   Aug31   0:00 [ksmd]
+root          36  0.0  0.0      0     0 ?        SN   Aug31   0:25 [khugepaged]
+root          37  0.0  0.0      0     0 ?        I<   Aug31   0:00 [kintegrityd]
+root          38  0.0  0.0      0     0 ?        I<   Aug31   0:00 [kblockd]
+root          39  0.0  0.0      0     0 ?        I<   Aug31   0:00 [blkcg_punt_bio]
+root          40  0.0  0.0      0     0 ?        I<   Aug31   0:00 [tpm_dev_wq]
+root          41  0.0  0.0      0     0 ?        I<   Aug31   0:04 [kworker/0:1H-kblockd]
+root          42  0.0  0.0      0     0 ?        S    Aug31   0:03 [kswapd0]
+root          48  0.0  0.0      0     0 ?        I<   Aug31   0:00 [kthrotld]
+root          53  0.0  0.0      0     0 ?        I<   Aug31   0:00 [acpi_thermal_pm]
+root          54  0.0  0.0      0     0 ?        I<   Aug31   0:00 [nvme-wq]
+root          55  0.0  0.0      0     0 ?        I<   Aug31   0:00 [nvme-reset-wq]
+root          56  0.0  0.0      0     0 ?        I<   Aug31   0:00 [nvme-delete-wq]
+root          57  0.0  0.0      0     0 ?        I<   Aug31   0:00 [mld]
+root          58  0.0  0.0      0     0 ?        I<   Aug31   0:00 [ipv6_addrconf]
+root          63  0.0  0.0      0     0 ?        I<   Aug31   0:00 [kstrp]
+root          67  0.0  0.0      0     0 ?        I<   Aug31   0:00 [kworker/u5:0]
+root         123  0.0  0.0      0     0 ?        I<   Aug31   0:10 [kworker/1:1H-kblockd]
+root         137  0.0  0.0      0     0 ?        S    Aug31   0:00 [scsi_eh_0]
+root         138  0.0  0.0      0     0 ?        I<   Aug31   0:00 [scsi_tmf_0]
+root         175  0.0  0.0      0     0 ?        S    Aug31   0:41 [jbd2/sda1-8]
+root         176  0.0  0.0      0     0 ?        I<   Aug31   0:00 [ext4-rsv-conver]
+root         187  0.0  0.0      0     0 ?        S    Aug31   0:00 [hwrng]
+root         270  0.0  0.0      0     0 ?        I<   Aug31   0:00 [cryptd]
+root         375  0.0  0.1   8264  6344 ?        Ss   Aug31   0:14 /usr/sbin/haveged --Foreground --verbose=1
+message+     383  0.0  0.0   8280  4016 ?        Ss   Aug31   0:03 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         390  0.0  0.4  30980 17880 ?        Ss   Aug31   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         430  0.0  0.0   2896   904 tty1     Ss+  Aug31   0:00 /sbin/agetty -o -p -- \u --noclear - linux
+root         431  1.9  0.3 1241864 13896 ?       Ssl  Aug31 247:13 /usr/bin/google_guest_agent_manager
+root         536  1.5  0.2 1241076 9980 ?        Ssl  Aug31 195:54 /usr/bin/google_guest_compat_manager
+root         554  0.0  0.0   2940   888 ttyS0    Ss+  Aug31   0:00 /sbin/agetty -o -p -- \u --keep-baud 115200,57600,38400,9600 - vt220
+root         824  0.0  0.5 108104 20096 ?        Ssl  Aug31   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+Debian-+     832  0.0  0.4  31028 18192 ?        Ss   Aug31   1:36 /usr/sbin/exim4 -bd -q30m
+polkitd      833  0.0  0.1 308372  5452 ?        Ssl  Aug31   0:00 /usr/lib/polkit-1/polkitd --no-debug
+root         859  0.0  0.0 221796  3716 ?        Ssl  Aug31   0:32 /usr/sbin/rsyslogd -n -iNONE
+root        1175  0.0  0.2  15444  8116 ?        Ss   Aug31   0:25 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+root        1685  0.0  0.4 1906160 18480 ?       Ssl  Aug31   3:25 /opt/google-cloud-ops-agent/libexec/google_cloud_ops_agent_wrapper -config_path /etc/google-cloud-ops-agent/config.yaml -log_path /var/log/google-cloud-ops-agent/subagents/logging-module.log /opt/google-cloud-ops-agent/subagents/fluent-bit/bin/fluent-bit --config /run/google-cloud-ops-agent-fluent-bit/fluent_bit_main.conf --parser /run/google-cloud-ops-agent-fluent-bit/fluent_bit_parser.conf --storage_path /var/lib/google-cloud-ops-agent/fluent-bit/buffers
+root        1691  0.1  1.9 2035432 76368 ?       Ssl  Aug31  19:45 /opt/google-cloud-ops-agent/subagents/opentelemetry-collector/otelopscol --config=/run/google-cloud-ops-agent-opentelemetry-collector/otel.yaml
+root        1715  1.0  0.6 1189360 25080 ?       Sl   Aug31 131:41 /opt/google-cloud-ops-agent/subagents/fluent-bit/bin/fluent-bit --config /run/google-cloud-ops-agent-fluent-bit/fluent_bit_main.conf --parser /run/google-cloud-ops-agent-fluent-bit/fluent_bit_parser.conf --storage_path /var/lib/google-cloud-ops-agent/fluent-bit/buffers
+root        1745  0.0  0.0      0     0 ?        I<   Aug31   0:00 [tls-strp]
+systemd+  704584  0.0  0.1  18044  7040 ?        Ss   Sep07   0:00 /lib/systemd/systemd-networkd
+root      704588  0.0  0.4 1241604 18288 ?       Ssl  Sep07   0:19 /usr/bin/google_guest_agent
+root      704598  0.0  3.4 250828 139068 ?       Ss   Sep07   0:27 /lib/systemd/systemd-journald
+root      704776  0.0  0.1  16908  6988 ?        Ss   Sep07   0:00 /lib/systemd/systemd-logind
+root      704784  0.0  0.0   4024  2416 ?        Ss   Sep07   0:00 /usr/sbin/cron -f
+systemd+  704840  0.0  0.1  90096  5836 ?        Ssl  Sep07   0:00 /lib/systemd/systemd-timesyncd
+root      704878  0.0  0.1  24328  5224 ?        Ss   Sep07   0:00 /lib/systemd/systemd-udevd
+systemd+  704944  0.0  0.2  20984  9704 ?        Ss   Sep07   1:53 /lib/systemd/systemd-resolved
+root      834474  0.0  0.9 1271144 38252 ?       Ssl  Sep07   0:25 /usr/bin/google_osconfig_agent
+root      964390  0.0  0.1  10380  6612 ?        S    Sep08   0:00 nginx: master process /usr/sbin/nginx -g daemon on; master_process on;
+www-data  964393  0.0  0.0  10716  2460 ?        S    Sep08   0:00 nginx: worker process
+www-data  964394  0.0  0.0  10716  2524 ?        S    Sep08   0:00 nginx: worker process
+root      984044  0.0  0.0      0     0 ?        I    00:54   0:02 [kworker/0:0-events]
+root     1007561  0.0  0.0      0     0 ?        I    06:21   0:00 [kworker/1:1-events]
+root     1007562  0.0  0.0      0     0 ?        I    06:22   0:00 [kworker/u4:2-flush-8:0]
+root     1008228  0.0  0.0      0     0 ?        I    06:25   0:00 [kworker/u4:3-events_unbound]
+root     1008237  0.0  0.0      0     0 ?        I    06:31   0:00 [kworker/0:2-cgroup_destroy]
+root     1008238  0.0  0.2  17696 10760 ?        Ss   06:34   0:00 sshd: kevin [priv]
+kevin    1008241  0.0  0.2  18780 10024 ?        Ss   06:34   0:00 /lib/systemd/systemd --user
+kevin    1008243  0.0  0.0 169048  3608 ?        S    06:34   0:00 (sd-pam)
+kevin    1008262  0.0  0.1  18376  7292 ?        S    06:34   0:00 sshd: kevin@pts/0
+kevin    1008263  0.0  0.1   6584  5852 pts/0    Ss   06:34   0:00 bash --rcfile /dev/fd/63
+root     1008657  0.0  0.1   7496  4348 pts/0    S+   06:35   0:00 sudo su
+root     1008658  0.0  0.0   7496   484 pts/1    Ss   06:35   0:00 sudo su
+root     1008659  0.0  0.0   6112  3812 pts/1    S    06:35   0:00 su
+root     1008660  0.0  0.0   4720  3876 pts/1    S    06:35   0:00 bash
+root     1009378  0.0  0.0      0     0 ?        I    06:41   0:00 [kworker/u4:0-writeback]
+root     1009389  0.0  0.0      0     0 ?        I    06:42   0:00 [kworker/1:2]
+root     1009502  0.0  0.0      0     0 ?        I    06:45   0:00 [kworker/0:1]
+root     1010204  0.0  0.1   8488  4244 pts/1    R+   06:50   0:00 ps auxww
+====== Top 5 processes using the most memory ======
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root      704598  0.0  4.1 316364 167092 ?       Ss   Sep07   0:36 /lib/systemd/systemd-journald
+root        1691  0.1  1.9 2035432 77012 ?       Ssl  Aug31  21:12 /opt/google-cloud-ops-agent/subagents/opentelemetry-collector/otelopscol --config=/run/google-cloud-ops-agent-opentelemetry-collector/otel.yaml
+root      834474  0.0  0.9 1271144 38848 ?       Ssl  Sep07   0:35 /usr/bin/google_osconfig_agent
+root        1715  1.0  0.6 1189396 25208 ?       Sl   Aug31 140:59 /opt/google-cloud-ops-agent/subagents/fluent-bit/bin/fluent-bit --config /run/google-cloud-ops-agent-fluent-bit/fluent_bit_main.conf --parser /run/google-cloud-ops-agent-fluent-bit/fluent_bit_parser.conf --storage_path /var/lib/google-cloud-ops-agent/fluent-bit/buffers
+root         824  0.0  0.5 108104 20096 ?        Ssl  Aug31   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+====== Top 5 processes using the most cpu ======
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         431  1.9  0.3 1241864 14072 ?       Ssl  Aug31 265:19 /usr/bin/google_guest_agent_manager
+root         536  1.5  0.2 1241076 10012 ?       Ssl  Aug31 210:09 /usr/bin/google_guest_compat_manager
+root        1715  1.0  0.6 1189360 25204 ?       Sl   Aug31 141:06 /opt/google-cloud-ops-agent/subagents/fluent-bit/bin/fluent-bit --config /run/google-cloud-ops-agent-fluent-bit/fluent_bit_main.conf --parser /run/google-cloud-ops-agent-fluent-bit/fluent_bit_parser.conf --storage_path /var/lib/google-cloud-ops-agent/fluent-bit/buffers
+root        1691  0.1  1.9 2035432 77288 ?       Ssl  Aug31  21:13 /opt/google-cloud-ops-agent/subagents/opentelemetry-collector/otelopscol --config=/run/google-cloud-ops-agent-opentelemetry-collector/otel.yaml
+systemd+  704944  0.0  0.2  20984  9704 ?        Ss   Sep07   2:28 /lib/systemd/systemd-resolved
+====== Processes run by root ======
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.3 168148 12072 ?        Ss   Aug31   0:34 /lib/systemd/systemd --system --deserialize=52
+root           2  0.0  0.0      0     0 ?        S    Aug31   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   Aug31   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   Aug31   0:00 [rcu_par_gp]
+root           5  0.0  0.0      0     0 ?        I<   Aug31   0:00 [slub_flushwq]
+root           6  0.0  0.0      0     0 ?        I<   Aug31   0:00 [netns]
+root           8  0.0  0.0      0     0 ?        I<   Aug31   0:00 [kworker/0:0H-events_highpri]
+root          10  0.0  0.0      0     0 ?        I<   Aug31   0:00 [mm_percpu_wq]
+root          11  0.0  0.0      0     0 ?        I    Aug31   0:00 [rcu_tasks_kthread]
+root          12  0.0  0.0      0     0 ?        I    Aug31   0:00 [rcu_tasks_rude_kthread]
+root          13  0.0  0.0      0     0 ?        I    Aug31   0:00 [rcu_tasks_trace_kthread]
+root          14  0.0  0.0      0     0 ?        S    Aug31   0:20 [ksoftirqd/0]
+root          15  0.0  0.0      0     0 ?        I    Aug31   1:08 [rcu_preempt]
+root          16  0.0  0.0      0     0 ?        S    Aug31   0:03 [migration/0]
+root          18  0.0  0.0      0     0 ?        S    Aug31   0:00 [cpuhp/0]
+root          19  0.0  0.0      0     0 ?        S    Aug31   0:00 [cpuhp/1]
+root          20  0.0  0.0      0     0 ?        S    Aug31   0:04 [migration/1]
+root          21  0.0  0.0      0     0 ?        S    Aug31   0:21 [ksoftirqd/1]
+root          23  0.0  0.0      0     0 ?        I<   Aug31   0:00 [kworker/1:0H-events_highpri]
+root          26  0.0  0.0      0     0 ?        S    Aug31   0:00 [kdevtmpfs]
+root          27  0.0  0.0      0     0 ?        I<   Aug31   0:00 [inet_frag_wq]
+root          28  0.0  0.0      0     0 ?        S    Aug31   0:00 [kauditd]
+root          30  0.0  0.0      0     0 ?        S    Aug31   0:00 [khungtaskd]
+root          31  0.0  0.0      0     0 ?        S    Aug31   0:00 [oom_reaper]
+root          33  0.0  0.0      0     0 ?        I<   Aug31   0:00 [writeback]
+root          34  0.0  0.0      0     0 ?        S    Aug31   0:21 [kcompactd0]
+root          35  0.0  0.0      0     0 ?        SN   Aug31   0:00 [ksmd]
+root          36  0.0  0.0      0     0 ?        SN   Aug31   0:27 [khugepaged]
+root          37  0.0  0.0      0     0 ?        I<   Aug31   0:00 [kintegrityd]
+root          38  0.0  0.0      0     0 ?        I<   Aug31   0:00 [kblockd]
+root          39  0.0  0.0      0     0 ?        I<   Aug31   0:00 [blkcg_punt_bio]
+root          40  0.0  0.0      0     0 ?        I<   Aug31   0:00 [tpm_dev_wq]
+root          41  0.0  0.0      0     0 ?        I<   Aug31   0:04 [kworker/0:1H-kblockd]
+root          42  0.0  0.0      0     0 ?        S    Aug31   0:03 [kswapd0]
+root          48  0.0  0.0      0     0 ?        I<   Aug31   0:00 [kthrotld]
+root          53  0.0  0.0      0     0 ?        I<   Aug31   0:00 [acpi_thermal_pm]
+root          54  0.0  0.0      0     0 ?        I<   Aug31   0:00 [nvme-wq]
+root          55  0.0  0.0      0     0 ?        I<   Aug31   0:00 [nvme-reset-wq]
+root          56  0.0  0.0      0     0 ?        I<   Aug31   0:00 [nvme-delete-wq]
+root          57  0.0  0.0      0     0 ?        I<   Aug31   0:00 [mld]
+root          58  0.0  0.0      0     0 ?        I<   Aug31   0:00 [ipv6_addrconf]
+root          63  0.0  0.0      0     0 ?        I<   Aug31   0:00 [kstrp]
+root          67  0.0  0.0      0     0 ?        I<   Aug31   0:00 [kworker/u5:0]
+root         123  0.0  0.0      0     0 ?        I<   Aug31   0:10 [kworker/1:1H-kblockd]
+root         137  0.0  0.0      0     0 ?        S    Aug31   0:00 [scsi_eh_0]
+root         138  0.0  0.0      0     0 ?        I<   Aug31   0:00 [scsi_tmf_0]
+root         175  0.0  0.0      0     0 ?        S    Aug31   0:44 [jbd2/sda1-8]
+root         176  0.0  0.0      0     0 ?        I<   Aug31   0:00 [ext4-rsv-conver]
+root         187  0.0  0.0      0     0 ?        S    Aug31   0:00 [hwrng]
+root         270  0.0  0.0      0     0 ?        I<   Aug31   0:00 [cryptd]
+root         375  0.0  0.1   8264  6344 ?        Ss   Aug31   0:15 /usr/sbin/haveged --Foreground --verbose=1
+root         390  0.0  0.4  30980 17880 ?        Ss   Aug31   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         430  0.0  0.0   2896   904 tty1     Ss+  Aug31   0:00 /sbin/agetty -o -p -- \u --noclear - linux
+root         431  1.9  0.3 1241864 14072 ?       Ssl  Aug31 265:26 /usr/bin/google_guest_agent_manager
+root         536  1.5  0.2 1241076 9884 ?        Ssl  Aug31 210:15 /usr/bin/google_guest_compat_manager
+root         554  0.0  0.0   2940   888 ttyS0    Ss+  Aug31   0:00 /sbin/agetty -o -p -- \u --keep-baud 115200,57600,38400,9600 - vt220
+root         824  0.0  0.5 108104 20096 ?        Ssl  Aug31   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         859  0.0  0.0 221796  3716 ?        Ssl  Aug31   0:34 /usr/sbin/rsyslogd -n -iNONE
+root        1175  0.0  0.2  15444  8116 ?        Ss   Aug31   0:27 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+root        1685  0.0  0.4 1906160 18480 ?       Ssl  Aug31   3:40 /opt/google-cloud-ops-agent/libexec/google_cloud_ops_agent_wrapper -config_path /etc/google-cloud-ops-agent/config.yaml -log_path /var/log/google-cloud-ops-agent/subagents/logging-module.log /opt/google-cloud-ops-agent/subagents/fluent-bit/bin/fluent-bit --config /run/google-cloud-ops-agent-fluent-bit/fluent_bit_main.conf --parser /run/google-cloud-ops-agent-fluent-bit/fluent_bit_parser.conf --storage_path /var/lib/google-cloud-ops-agent/fluent-bit/buffers
+root        1691  0.1  1.9 2035432 78060 ?       Ssl  Aug31  21:14 /opt/google-cloud-ops-agent/subagents/opentelemetry-collector/otelopscol --config=/run/google-cloud-ops-agent-opentelemetry-collector/otel.yaml
+root        1715  1.0  0.6 1189360 25204 ?       Sl   Aug31 141:10 /opt/google-cloud-ops-agent/subagents/fluent-bit/bin/fluent-bit --config /run/google-cloud-ops-agent-fluent-bit/fluent_bit_main.conf --parser /run/google-cloud-ops-agent-fluent-bit/fluent_bit_parser.conf --storage_path /var/lib/google-cloud-ops-agent/fluent-bit/buffers
+root        1745  0.0  0.0      0     0 ?        I<   Aug31   0:00 [tls-strp]
+root      704588  0.0  0.4 1241604 19444 ?       Ssl  Sep07   0:25 /usr/bin/google_guest_agent
+root      704598  0.0  4.1 316364 167844 ?       Ss   Sep07   0:36 /lib/systemd/systemd-journald
+root      704776  0.0  0.1  16908  6988 ?        Ss   Sep07   0:01 /lib/systemd/systemd-logind
+root      704784  0.0  0.0   4024  2416 ?        Ss   Sep07   0:00 /usr/sbin/cron -f
+root      704878  0.0  0.1  24328  5224 ?        Ss   Sep07   0:00 /lib/systemd/systemd-udevd
+root      834474  0.0  0.9 1271144 38988 ?       Ssl  Sep07   0:35 /usr/bin/google_osconfig_agent
+root      964390  0.0  0.1  10380  6612 ?        S    Sep08   0:00 nginx: master process /usr/sbin/nginx -g daemon on; master_process on;
+root     1068657  0.0  0.0      0     0 ?        I    20:13   0:00 [kworker/u4:1-flush-8:0]
+root     1069364  0.0  0.0      0     0 ?        I    20:24   0:00 [kworker/1:0-mm_percpu_wq]
+root     1070025  0.0  0.0      0     0 ?        I    20:25   0:00 [kworker/u4:2-writeback]
+root     1070760  0.0  0.2  17696 10860 ?        Ss   20:44   0:00 sshd: kevin [priv]
+root     1070769  0.0  0.0      0     0 ?        I    20:44   0:00 [kworker/0:1-events]
+root     1071011  0.0  0.1   7492  4344 pts/0    S+   20:44   0:00 sudo su
+root     1071012  0.0  0.0   7492   480 pts/1    Ss   20:44   0:00 sudo su
+root     1071013  0.0  0.0   6112  3808 pts/1    S    20:44   0:00 su
+root     1071014  0.0  0.0   4720  3748 pts/1    S    20:44   0:00 bash
+root     1071812  0.0  0.0      0     0 ?        I    20:54   0:00 [kworker/1:1]
+root     1073363  0.0  0.0      0     0 ?        I    21:12   0:00 [kworker/u4:0-events_unbound]
+root     1073407  0.0  0.0      0     0 ?        I    21:15   0:00 [kworker/0:0-mm_percpu_wq]
+root     1074161  0.0  0.1   8488  4168 pts/1    R+   21:21   0:00 ps -U root -u root u
+====== Total number of running processes ======
+99
