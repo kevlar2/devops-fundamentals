@@ -43,11 +43,11 @@ To learn how to mornitor and manage process on linux systems/servers.
    - readme.md  
 
 
-#### All process view via htop
+#### View all processes using htop.
 ![htop process view screenshot](./images/htop_process_view.png)
 
-#### 5 processes using the most memory
+#### Top 5 memory-consuming processes.
 ![5 ps process view screenshot](./images/5_process_high_mem_view.png)
 
-#### 5 processes using the most cpu
+#### Top 5 CPU-consuming processes.
 ![5 ps process view screenshot](./images/5_process_high_cpu_view.png)

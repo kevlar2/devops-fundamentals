@@ -1,0 +1,183 @@
+#######################################################
+Traceroute
+#######################################################
+- Traceroute is a tool that shows  each path  data takes from the computer to a website.
+- A hop in traceroute is every stop data makes on its way to the destination.
+
+innocent@cloudpros-beginner-bootcamp-practice-server:~$ traceroute google.com
+traceroute to google.com (142.250.117.102), 30 hops max, 60 byte packets
+ 1  * * *
+ 2  209.85.240.115 (209.85.240.115)  0.652 ms 192.178.104.19 (192.178.104.19)  1.878 ms  1.673 ms
+ 3  192.178.245.18 (192.178.245.18)  4.791 ms 192.178.244.236 (192.178.244.236)  1.918 ms  1.802 ms
+ 4  192.178.97.53 (192.178.97.53)  2.134 ms  2.107 ms 192.178.97.97 (192.178.97.97)  2.070 ms
+ 5  192.178.87.72 (192.178.87.72)  1.498 ms 216.239.46.88 (216.239.46.88)  1.990 ms  2.008 ms
+ 6  * * *
+ 7  * * *
+ 8  * * *
+ 9  * * *
+10  * * *
+11  * * *
+12  * * *
+13  um-in-f102.1e100.net (142.250.117.102)  1.495 ms  1.427 ms  1.404 ms
+
+- The above result show the joutney packets take to reach Google's server.
+1- Hop 1 came back with * * *. This usually means the first router (like my gateway or ISP’s edge router) 
+doesn’t respond to traceroute, but the packets still moved forward.
+
+2- Hops 2–5 showed IP addresses (209.85.240.115 - 192.178.104.19 that belong to Google’s network. The response times were 
+very low (around 1–4 ms), which means the traffic was moving quickly and smoothly.
+
+3- Hops 6–12 also showed * * *. This doesn’t mean the connection failed — it just means those routers don’t 
+reply to traceroute requests. Big companies like Google,AWS often set their routers this way.
+
+4- Hop 13 was the final destination, which is Google’s server (142.250.117.102). 
+It replied in about 1.4 ms, showing that the connection to Google worked fine.
+
+
+
+Use case: when would you run traceroute at work?
+#######################################################
+1 - Troubleshooting a website or server issue
+-If a website isn’t loading, traceroute helps find where the connection is 
+slowing down or getting blocked (your network, your ISP, or the server).
+
+2- Checking network performance
+
+You can see which routers or parts of the network are causing delays. This is useful if users report a slow app or service.
+
+3- Verifying cloud or VPN connections
+
+When connecting two networks (like your office network to a cloud server), 
+traceroute confirms your traffic is taking the expected route.
+
+
+#######################################################
+Tcpdump
+#######################################################
+Run: sudo tcpdump -i any -c 5
+Explain: what do you see in the lines (source, destination, protocol)?
+Use case: why might tcpdump be used when debugging DNS, HTTP, or blocked traffic?
+
+Command meaning:
+- sudo = swtich to roo user
+- tcpdump = tool use to captures packets
+- -i = listen on all network interfaces.
+- -c 5 = stop after capturing 5 packets
+
+innocent@cloudpros-beginner-bootcamp-practice-server:~$ sudo su
+root@cloudpros-beginner-bootcamp-practice-server:/home/innocent# tcpdump -i any -c 5
+tcpdump: data link type LINUX_SLL2
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on any, link-type LINUX_SLL2 (Linux cooked v2), snapshot length 262144 bytes
+23:12:39.851655 ens4  Out IP cloudpros-beginner-bootcamp-practice-server.europe-west2-a.c.spry-effect-470712-b5.internal.ssh > 101.115.226.241.3261: Flags [P.], seq 3713938298:3713938374, ack 3354950154, win 501, length 76
+23:12:39.853483 ens4  Out IP cloudpros-beginner-bootcamp-practice-server.europe-west2-a.c.spry-effect-470712-b5.internal.ssh > 101.115.226.241.3261: Flags [P.], seq 76:280, ack 1, win 501, length 204
+23:12:39.937463 lo    In  IP localhost.40968 > localhost.domain: 9912+ [1au] PTR? 241.226.115.101.in-addr.arpa. (57)
+23:12:39.937789 ens4  Out IP cloudpros-beginner-bootcamp-practice-server.europe-west2-a.c.spry-effect-470712-b5.internal.36474 > metadata.google.internal.domain: 22139+ [1au] PTR? 241.226.115.101.in-addr.arpa. (57)
+23:12:39.937853 ens4  Out IP cloudpros-beginner-bootcamp-practice-server.europe-west2-a.c.spry-effect-470712-b5.internal.35476 > metadata.google.internal.domain: 57889+ [1au] PTR? 241.226.115.101.in-addr.arpa. (57)
+5 packets captured
+141 packets received by filter
+0 packets dropped by kernel
+
+================== Output ========================
+- 23:12:39.851655 ens4  Out IP cloudpros-beginner-bootcamp-practice-server.europe-west2-a.c.spry-effect-470712-b5.internal.ssh > 101.115.226.241.3261: Flags [P.], seq 3713938298:3713938374, ack 3354950154, win 501, length 76
+The first output line breakdown
+====================================
+- 23:12:39.851655 = Time : 23:12:39.851655
+- ens4 = Interface : network interface used to send or receive this packet.
+- Out = Direction : shows that the packet is leaving the server
+- IP = Protocol used by the packet
+- cloudpros-beginner-bootcamp-practice-server.europe-west2-a.c.spry-effect-470712-b5.internal.ssh = Source : This show the server and port number i use to sent packet to the remote server.
+- 101.115.226.241.3261 = Destination : The remote IP and port 
+- Flags [P.], seq 3713938298:3713938374, ack 3354950154, win 501, length 76 : TCP packet: Server sends 76-byte SSH packet to remote IP, using TCP sequence, acknowledgment, flow control (window), and push flag for immediate delivery.
+
+Why tcpdump is useful
+=========================
+1- Checking DNS (website names):
+Shows if your computer is asking the DNS server for website addresses.
+Example: If a website won’t load, tcpdump can tell if your request even reached the DNS server.
+
+2- Checking web traffic (HTTP/HTTPS):
+Shows if your computer can reach a website or server.
+Helps see if requests or responses are being blocked or delayed.
+
+
+#######################################################
+ Ping
+#######################################################
+Ping 8.8.8.8 and an invalid address.
+Explain: what packet loss means, and why some networks block ping.
+Use case: why do engineers still use ping even though it’s so simple?
+
+
+- Pinging a valid IP (8.8.8.8, Google DNS)
+===============================================
+root@cloudpros-beginner-bootcamp-practice-server:/home/innocent#  ping 8.8.8.8
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=122 time=1.72 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=122 time=1.15 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=122 time=1.24 ms
+64 bytes from 8.8.8.8: icmp_seq=4 ttl=122 time=1.18 ms
+64 bytes from 8.8.8.8: icmp_seq=5 ttl=122 time=1.57 ms
+64 bytes from 8.8.8.8: icmp_seq=6 ttl=122 time=1.05 ms
+64 bytes from 8.8.8.8: icmp_seq=7 ttl=122 time=1.18 ms
+^C
+--- 8.8.8.8 ping statistics ---
+7 packets transmitted, 7 received, 0% packet loss, time 6008ms
+rtt min/avg/max/mdev = 1.051/1.298/1.719/0.228 ms
+
+=> All 7 messages got a reply that is  0% packet loss. 
+=> Response time is around ~1–1.7 for each ping this mean connection is very fast
+=> This means your computer can talk to Google successfully and quickly.
+
+
+- Pinging a Invalid IP 1.8.8.1
+=============================================
+PING 1.8.8.1 (1.8.8.1) 56(84) bytes of data.
+^C
+--- 1.8.8.1 ping statistics ---
+24 packets transmitted, 0 received, 100% packet loss, time 23535ms
+
+=> No messages got a reply , means 100% packet loss.
+
+=> This means the computer doesn’t exist or can’t be reached.
+
+Use case: why do engineers still use ping even though it’s so simple?
+=====================================================================
+=> Check if a server or website is reachable
+=> Measure speed of the connection 
+=> Detect packet loss
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
