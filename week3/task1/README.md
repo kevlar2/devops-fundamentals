@@ -32,6 +32,14 @@
  - logs/ — folder where your script saves reports.
  - reading-notes.md — short theory answers (in your own words).
 
+### 📚 Allowed Resources
+- Cloudflare Learning Center:
+  - [What is DNS?](https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/)
+  - [DNS Server Types](https://www.cloudflare.com/en-gb/learning/dns/dns-server-types/)
+  - [DNS Records](https://www.cloudflare.com/en-gb/learning/dns/dns-records/)
+  - man pages: man ip, man resolvectl, man dig, man nslookup, man curl
+  - Ubuntu docs on /etc/resolv.conf and systemd-resolved
+
 ### Folder structure 
  - dns-interactive-explorer
    - dns_mini.sh
