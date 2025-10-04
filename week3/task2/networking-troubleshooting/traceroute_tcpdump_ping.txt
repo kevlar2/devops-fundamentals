@@ -1,5 +1,5 @@
 #######################################################
-Traceroute
+# Traceroute
 #######################################################
 - Traceroute is a tool that shows  each path  data takes from the computer to a website.
 - A hop in traceroute is every stop data makes on its way to the destination.
@@ -52,7 +52,7 @@ traceroute confirms your traffic is taking the expected route.
 
 
 #######################################################
-Tcpdump
+# Tcpdump
 #######################################################
 Run: sudo tcpdump -i any -c 5
 Explain: what do you see in the lines (source, destination, protocol)?
@@ -102,7 +102,7 @@ Helps see if requests or responses are being blocked or delayed.
 
 
 #######################################################
- Ping
+# Ping
 #######################################################
 Ping 8.8.8.8 and an invalid address.
 Explain: what packet loss means, and why some networks block ping.
@@ -137,47 +137,12 @@ PING 1.8.8.1 (1.8.8.1) 56(84) bytes of data.
 --- 1.8.8.1 ping statistics ---
 24 packets transmitted, 0 received, 100% packet loss, time 23535ms
 
-=> No messages got a reply , means 100% packet loss.
+- => No messages got a reply , means 100% packet loss.
 
-=> This means the computer doesn’t exist or can’t be reached.
+- => This means the computer doesn’t exist or can’t be reached.
 
 Use case: why do engineers still use ping even though it’s so simple?
 =====================================================================
-=> Check if a server or website is reachable
-=> Measure speed of the connection 
-=> Detect packet loss
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- => Check if a server or website is reachable
+- => Measure speed of the connection 
+- => Detect packet loss
