@@ -1,0 +1,40 @@
+ip address: 10.154.0.2
+===================================
+
+Current DNS resolver info: 
+===================================
+
+Link 2 (ens4)
+    Current Scopes: DNS LLMNR/IPv4 LLMNR/IPv6
+         Protocols: +DefaultRoute +LLMNR -mDNS -DNSOverTLS DNSSEC=no/unsupported
+Current DNS Server: 169.254.169.254
+       DNS Servers: 169.254.169.254
+        DNS Domain: europe-west2-a.c.spry-effect-470712-b5.internal
+                    c.spry-effect-470712-b5.internal google.internal
+
+====== A-record ======
+exmaple.com. 300 IN A 104.18.74.230
+exmaple.com. 300 IN A 104.18.75.230
+
+====== AAAA-record ======
+exmaple.com. 300 IN AAAA 2606:4700::6812:4be6
+exmaple.com. 300 IN AAAA 2606:4700::6812:4ae6
+
+====== NS-record ======
+exmaple.com. 21600 IN NS ara.ns.cloudflare.com.
+exmaple.com. 21600 IN NS jay.ns.cloudflare.com.
+
+====== TXT-record ======
+exmaple.com. 300 IN TXT "google-site-verification=kKRs6Hp32cqq-5D7puhxgzFmXte7XcfsRdJ23MJ2MvE"
+exmaple.com. 300 IN TXT "google-site-verification=xsaEULnIzE98PYquHbrFUczFNgu0Reel06cRh2KngI8"
+exmaple.com. 300 IN TXT "v=spf1
+
+=======================================
+----------------------------------------
+Quick HTTP Header Check for: https://exmaple.com
+----------------------------------------
+HTTP/2 200 
+date: Sun, 28 Sep 2025 20:09:21 GMT
+content-type: text/html
+
+=======================================

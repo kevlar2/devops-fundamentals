@@ -1,0 +1,27 @@
+===========================================
+Process Investigation
+Wed Sep 10 20:45:49 UTC 2025
+===========================================
+===========================================
+======== PID of the SSH service ========
+1179596
+======== Process is using port 22 ========
+sshd       1175  root    3u  IPv4 5469568      0t0  TCP *:ssh (LISTEN)
+======== Parent PID of your current shell ========
+1179820
+======== process tree for my session ========
+1179821 pts/5    S      0:00          \_ bash
+1183811 pts/5    S+     0:00              \_ grep 1179821
+
+
+=============== Notes ===============
+A PID (Process ID) serves as a unique number for each process running on a system. 
+It helps both the system and its users to monitor, manage, and control individual processes.
+
+Safe termination involves:
+1. Trying SIGTERM (kill -15) for a graceful shutdown.
+2. If needed, forcing with SIGKILL (kill -9).
+3. Verifying that the process is no longer running.
+
+Parent/child relationships are important for resource management.
+SSH typically runs on port 22, and verifying which process uses a port is useful for troubleshooting.

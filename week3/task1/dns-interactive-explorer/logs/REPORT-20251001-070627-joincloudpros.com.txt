@@ -1,0 +1,36 @@
+ip address: 10.154.0.2
+===================================
+
+Current DNS resolver info: 
+===================================
+
+Link 2 (ens4)
+    Current Scopes: DNS LLMNR/IPv4 LLMNR/IPv6
+         Protocols: +DefaultRoute +LLMNR -mDNS -DNSOverTLS DNSSEC=no/unsupported
+Current DNS Server: 169.254.169.254
+       DNS Servers: 169.254.169.254
+        DNS Domain: europe-west2-a.c.spry-effect-470712-b5.internal
+                    c.spry-effect-470712-b5.internal google.internal
+
+====== A-record ======
+joincloudpros.com. 300 IN A 185.158.133.1
+
+====== AAAA-record ======
+
+
+====== NS-record ======
+joincloudpros.com. 1800 IN NS dns1.registrar-servers.com.
+joincloudpros.com. 1800 IN NS dns2.registrar-servers.com.
+
+====== TXT-record ======
+joincloudpros.com. 1800 IN TXT "v=spf1
+
+=======================================
+----------------------------------------
+Quick HTTP Header Check for: https://joincloudpros.com
+----------------------------------------
+HTTP/2 200 
+date: Wed, 01 Oct 2025 07:06:27 GMT
+content-type: text/html; charset=utf-8
+
+=======================================

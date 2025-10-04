@@ -1,0 +1,77 @@
+ip address: 10.154.0.2
+===================================
+
+Current DNS resolver info: 
+===================================
+
+Link 2 (ens4)
+    Current Scopes: DNS LLMNR/IPv4 LLMNR/IPv6
+         Protocols: +DefaultRoute +LLMNR -mDNS -DNSOverTLS DNSSEC=no/unsupported
+Current DNS Server: 169.254.169.254
+       DNS Servers: 169.254.169.254
+        DNS Domain: europe-west2-a.c.spry-effect-470712-b5.internal
+                    c.spry-effect-470712-b5.internal google.internal
+
+====== A-record ======
+netflix.com. 53 IN A 54.74.73.31
+netflix.com. 53 IN A 3.251.50.149
+netflix.com. 53 IN A 54.155.178.5
+
+====== AAAA-record ======
+netflix.com. 60 IN AAAA 2a05:d018:76c:b685:c898:aa3a:42c7:9d21
+netflix.com. 60 IN AAAA 2a05:d018:76c:b684:b233:ac1f:be1f:7
+netflix.com. 60 IN AAAA 2a05:d018:76c:b683:e1fe:9fbf:c403:57f1
+
+====== NS-record ======
+netflix.com. 14400 IN NS ns-1372.awsdns-43.org.
+netflix.com. 14400 IN NS ns-1984.awsdns-56.co.uk.
+netflix.com. 14400 IN NS ns-659.awsdns-18.net.
+netflix.com. 14400 IN NS ns-81.awsdns-10.com.
+
+====== TXT-record ======
+netflix.com. 299 IN TXT "docker-verification=5f9a055c-22b9-4d40-be7f-5af4171e1e71"
+netflix.com. 299 IN TXT "klaviyo-site-verification=WwbqJa"
+netflix.com. 299 IN TXT "apple-domain-verification=U1j_Aj0pS5fid78Cag85YGM14jHrzxM-S2ICXc8rGxg"
+netflix.com. 299 IN TXT "atlassian-domain-verification=TX0Efjn8bXAu0o9GAHyYowM0mcu4oDPHFf10cqaDXFCvU9tRB7R/A9oeQcDmEAD8"
+netflix.com. 299 IN TXT "docusign=f3d36bef-ec7d-42e5-9334-626611acb127"
+netflix.com. 299 IN TXT "google-site-verification=YVxAf7gFR4vFk1RkUwiYt3pzl2AVUP6aPdBgV1qtwcw"
+netflix.com. 299 IN TXT "canva-site-verification=DW6T-OKEapKu9QB9ChMocw"
+netflix.com. 299 IN TXT "docusign=f249396f-8150-48f8-8bd2-705be6e03826"
+netflix.com. 299 IN TXT "apple-domain-verification=Ohlo8qLyb9N4JaIm"
+netflix.com. 299 IN TXT "8cd468d7d5994fcc9d350683a8cb07a1"
+netflix.com. 299 IN TXT "miro-verification=9ac407d6774b2ec4313b004d40204399e37f3b48"
+netflix.com. 299 IN TXT "google-site-verification=Wn4h4x_Gf8Zs5qiw88ZingFRjLUNzga-zJXts2UPics"
+netflix.com. 299 IN TXT "klaviyo-site-verification=UM4UEX"
+netflix.com. 299 IN TXT "infoblox-domain-mastery=83433630723145c8e700674aa65ad12bf58d7cd22434a5527c383d131ccc354a77"
+netflix.com. 299 IN TXT "1password-site-verification=BXCRTZRWNVG4PFLIYFIBWSYHX4"
+netflix.com. 299 IN TXT "dropbox-domain-verification=htwo11xk2yl1"
+netflix.com. 299 IN TXT "google-site-verification=a8Lak2UwVjIlmH1xRYU3mJ6nSQ7rJnyf2VKWtH4nKZI"
+netflix.com. 299 IN TXT "anthropic-domain-verification-vxqysx=XDtJHKRTpvy6QvuMuyVMXbMxT"
+netflix.com. 299 IN TXT "facebook-domain-verification=k65vedr09b2tp2q144ho1zewp3xsc6"
+netflix.com. 299 IN TXT "zapier-domain-verification-challenge=d740d03c-47a4-491c-934d-c61bdba6099e"
+netflix.com. 299 IN TXT "loom-verification=0004053852"
+netflix.com. 299 IN TXT "logmein-verification-code=905b1ed4-1c2e-466f-b24c-756e6ca39eb5"
+netflix.com. 299 IN TXT "google-site-verification=VQKoV3pv-QYIDfbQa1N4r97x8W07veRTK6JhWUavIuc"
+netflix.com. 299 IN TXT "notion-domain-verification=MHmHAv2mrRGxVuA3rhIRmz6vwrsAEbsqCR6yRIycSoj"
+netflix.com. 299 IN TXT "lucidlink-verification=26PKTJ9J3ATM2SWV49QRS442K4"
+netflix.com. 299 IN TXT "h1-domain-verification=AYCqXFtcqVzAhHLWr58GvY2WrbTfkGeMsijza2jPS2E1qcn1"
+netflix.com. 299 IN TXT "google-site-verification=9DgwSKXMlFzcnW-HuGWef6aVVHWDCQNehxHTq0Ps9IA"
+netflix.com. 299 IN TXT "smartsheet-site-validation=zZPtdlBFlbl-n54tmRUUcd6Bd8lllpAR"
+netflix.com. 299 IN TXT "unity-sso-verification=46eb4cbd-e316-4691-84c2-4f4bce784d84"
+netflix.com. 299 IN TXT "asv=4853f01b1e9226ed9d0031284948059f"
+netflix.com. 299 IN TXT "google-site-verification=nCi1QdlMabPJOvtQNCo5KaPyDfwog9pDr3d8IN767YA"
+netflix.com. 299 IN TXT "jamf-site-verification=vqjVdHx1f_q52DK-WclChA"
+netflix.com. 299 IN TXT "logmein-verification-code=4FVB4FQ17eVMyHCC7RAApS4Zp"
+netflix.com. 299 IN TXT "v=spf1
+
+=======================================
+----------------------------------------
+Quick HTTP Header Check for: https://netflix.com
+----------------------------------------
+HTTP/2 405 
+server: envoy
+x-frame-options: DENY
+
+=======================================
+----------------------------------------
+Report successfully saved to: logs/REPORT-20250926-222544-netflix.com.txt

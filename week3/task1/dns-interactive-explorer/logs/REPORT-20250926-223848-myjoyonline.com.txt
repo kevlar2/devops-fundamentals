@@ -1,0 +1,40 @@
+ip address: 10.154.0.2
+===================================
+
+Current DNS resolver info: 
+===================================
+
+Link 2 (ens4)
+    Current Scopes: DNS LLMNR/IPv4 LLMNR/IPv6
+         Protocols: +DefaultRoute +LLMNR -mDNS -DNSOverTLS DNSSEC=no/unsupported
+Current DNS Server: 169.254.169.254
+       DNS Servers: 169.254.169.254
+        DNS Domain: europe-west2-a.c.spry-effect-470712-b5.internal
+                    c.spry-effect-470712-b5.internal google.internal
+
+====== A-record ======
+myjoyonline.com. 300 IN A 34.138.208.254
+
+====== AAAA-record ======
+
+
+====== NS-record ======
+myjoyonline.com. 21600 IN NS ns-cloud-d4.googledomains.com.
+myjoyonline.com. 21600 IN NS ns-cloud-d2.googledomains.com.
+myjoyonline.com. 21600 IN NS ns-cloud-d1.googledomains.com.
+myjoyonline.com. 21600 IN NS ns-cloud-d3.googledomains.com.
+
+====== TXT-record ======
+myjoyonline.com. 300 IN TXT "google-site-verification=ED91takhwPp-f2KE01E9X2qPpFZwGp2vSJr_RMZEcAY"
+
+=======================================
+----------------------------------------
+Quick HTTP Header Check for: https://myjoyonline.com
+----------------------------------------
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Sep 2025 22:38:48 GMT
+Server: Apache
+
+=======================================
+----------------------------------------
+Report successfully saved to: logs/REPORT-20250926-223848-myjoyonline.com.txt

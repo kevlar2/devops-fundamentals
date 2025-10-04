@@ -1,0 +1,20 @@
+# Commands and Explanations
+
+- Find 
+  -> To find files within a directory, I used grep to prevent searching and outputting the entire folder structure. 
+     I used it to find the week-2-tasks folder.
+
+- mkdir 
+  -> Used to create the task4 folder
+
+- touch
+  -> To create an empty script file
+
+- Nano
+  -> To open and edith the script file
+
+- chmod 755 ask_user.sh 
+  -> To make the script executable so it can run with ./ask_user.sh
+
+- ./ask_user.sh
+  -> The commands executes the script

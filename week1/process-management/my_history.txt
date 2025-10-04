@@ -1,0 +1,258 @@
+Tue Sep  9 08:58:52 UTC 2025
+  479  cat process_snapshot.txt 
+  480  clear
+  481  ls -al
+  482  who
+  483  exit
+  484  cd /
+  485  ls
+  486  cd cloudpros-devops-cohort-week-1-dir/practice-folder/task3/
+  487  las
+  488  ls
+  489  rm process_snapshot.txt 
+  490  htop -b -n 1 > process_snapshot.txt
+  491  man htop
+  492  top -b -n 1 > process_snapshot.txt
+  493  ls -al
+  494  cat process_snapshot.txt 
+  495  clear
+  496  ls -al
+  497  exit
+  498  cd ..
+  499  cd /
+  500  cd cloudpros-devops-cohort-week-1-dir/
+  501  cd practice-folder/test3
+  502  cd practice-folder/
+  503  ls
+  504  cd task3
+  505  ls 
+  506  rm process_snapshot.txt 
+  507  ls
+  508  ps aux > process_snapshot.txt
+  509  cat process_snapshot.txt 
+  510  ps aux -b  > process_snapshot.txt
+  511  ps --help
+  512  ps --help output
+  513  rm process_snapshot.txt 
+  514  ps aux --help
+  515  ps aux --help all
+  516  ps aux &> process_snapshot.txt
+  517  cat process_snapshot.txt 
+  518  rm process_snapshot.txt 
+  519  ps aux | tee -a process_snapshot.txt
+  520  ps aux
+  521  ps auxww
+  522  clear
+  523  ps auxww
+  524* ps aux 
+  525  ps auxww > process_snapshot.txt
+  526  cat process_snapshot.txt 
+  527  ps aux --help all
+  528  history | tail -50 > my_history.txt
+  489  rm process_snapshot.txt 
+  490  htop -b -n 1 > process_snapshot.txt
+  491  man htop
+  492  top -b -n 1 > process_snapshot.txt
+  493  ls -al
+  494  cat process_snapshot.txt 
+  495  clear
+  496  ls -al
+  497  exit
+  498  cd ..
+  499  cd /
+  500  cd cloudpros-devops-cohort-week-1-dir/
+  501  cd practice-folder/test3
+  502  cd practice-folder/
+  503  ls
+  504  cd task3
+  505  ls 
+  506  rm process_snapshot.txt 
+  507  ls
+  508  ps aux > process_snapshot.txt
+  509  cat process_snapshot.txt 
+  510  ps aux -b  > process_snapshot.txt
+  511  ps --help
+  512  ps --help output
+  513  rm process_snapshot.txt 
+  514  ps aux --help
+  515  ps aux --help all
+  516  ps aux &> process_snapshot.txt
+  517  cat process_snapshot.txt 
+  518  rm process_snapshot.txt 
+  519  ps aux | tee -a process_snapshot.txt
+  520  ps aux
+  521  ps auxww
+  522  clear
+  523  ps auxww
+  524* ps aux 
+  525  ps auxww > process_snapshot.txt
+  526  cat process_snapshot.txt 
+  527  ps aux --help all
+  528  history | tail -50 > my_history.txt
+  529  cat my_history.txt 
+  530  touch readme.md
+  531  ls -l
+  532  ps aux | pgrep root
+  533  ps aux | pgrep 'root'
+  534  pgrep -u
+  535  pgrep -aul root
+  536  pgrep -u root
+  537  ps aux | grep 'root'
+  538  history | tail -50 >> my_history.txt
+=====================================
+Tue Sep  9 21:07:46 UTC 2025
+===============================================
+  485  ps aux | grep 'root'
+  486  history | tail -50 >> my_history.txt
+  487  cat my_history.txt 
+  488  exit
+  489  cd /
+  490  cd cloudpros-devops-cohort-week-1-dir/
+  491  cd practice-folder/task3/
+  492  ls -l
+  493  date
+  494  nano my_history.txt 
+  495  nano process_snapshot.txt 
+  496  ls -al
+  497  exit
+  498  cd /
+  499  cd cloudpros-devops-cohort-week-1-dir/
+  500  cd practice-folder/
+  501  ls
+  502  cd task3/
+  503  ls
+  504  cat process_snapshot.txt 
+  505  clear
+  506  nano process_snapshot.txt 
+  507  ls -al
+  508  ps aux >> test.txt
+  509  cat test.txt 
+  510  rm trm test.txt 
+  511  ls
+  512  echo "====== Top 5 processes using the most memory ======" >> process_snapshot.txt 
+  513  cat process_snapshot.txt | tail 
+  514  man ps
+  515  ps aux --sort=mem
+  516  ps aux --sort=-mem
+  517  ps aux --sort=-%mem
+  518  ps aux --sort=-%mem | head 6
+  519  ps aux --sort=-%mem | head 
+  520  ps aux --sort=-%mem | head -n6
+  521  ps aux --sort=-%mem | head -n 6
+  522  ps aux --sort=-%mem | head -n 5
+  523  ps aux --sort=-%mem | head -n 6
+  524  ls -al
+  525  cat process_snapshot.txt | tail
+  526  ps aux --sort=-%mem | head -n 6 >> process_snapshot.txt 
+  527  cat process_snapshot.txt | tail
+  528  cat my_history.txt 
+  529  echo "=====================================" >> my_history.txt 
+  530  cat my_history.txt 
+  531  date >> my_history.txt 
+  532  cat my_history.txt 
+  533  echo "===============================================" >> my_history.txt 
+  534  history | tail -50 >> my_history.txt 
+=============================================
+Tue Sep  9 21:45:37 UTC 2025
+============================================
+  530  cat my_history.txt 
+  531  date >> my_history.txt 
+  532  cat my_history.txt 
+  533  echo "===============================================" >> my_history.txt 
+  534  history | tail -50 >> my_history.txt 
+  535  cat my_history.txt 
+  536  ps aux --sort=-%cpu | head -n 6
+  537  ps aux --sort=+%cpu | head -n 6
+  538  man ps
+  539  cat process_snapshot.txt | tail
+  540  echo "====== Top 5 processes using the most cpu ======" >> process_snapshot.txt 
+  541  cat process_snapshot.txt | tail
+  542* 
+  543  ps aux --sort=-%cpu | head -n 6 >> process_snapshot.txt 
+  544  cat process_snapshot.txt | tail
+  545  cat process_snapshot.txt | tail
+  546  echo "====== Top 5 processes using the most cp ======" >> process_snapshot.txt 
+  547  cat process_snapshot.txt | tail
+  548  nano process_snapshot.txt 
+  549  cat process_snapshot.txt | tail
+  550  man ps
+  551  ps -U root
+  552  ps -U root -u root u
+  553  ps -U root -u root u >> process_snapshot.txt 
+  554  cat process_snapshot.txt | tail
+  555  nano process_snapshot.txt 
+  556  echo "====== Total number of running processes ======" >> process_snapshot.txt
+  557  cat process_snapshot.txt | tail 
+  558  man ps
+  559  ps -eo pid,ppid,cmd,%mem,%cpu,start | head
+  560  man ps
+  561  man top
+  562  man htop
+  563  htop
+  564  top
+  565  ps aux | wc
+  566  ps aux | wc -l
+  567  ps -eo user | wc
+  568  ps aux | wc -l
+  569  ps aux | wc -l
+  570  ps aux | wc -l
+  571  cat process_snapshot.txt | tail 
+  572  ps aux | wc -l
+  573  ps aux | wc -l >> process_snapshot.txt 
+  574  cat process_snapshot.txt | tail 
+  575  ls -al
+  576  cat my_history.txt | tail
+  577  echo "=============================================" >> my_history.txt 
+  578  cat my_history.txt | tail
+  579  history | tail -50 >> my_history.txt
+Wed Sep 10 21:35:30 UTC 2025
+  547  pgrep -f -u kevin sshd >> process_notes.txt 
+  548  cat process_notes.txt 
+  549  echo "======== process is using port 22 ========
+  550  echo "======== process is using port 22 ========" >> process_notes.txt 
+  551  cat process_notes.txt 
+  552  lsof
+  553  lsof -l
+  554  ps aux | grep 22
+  555  apt search lsof
+  556  ps -eo user,pid,command | grep sshd | grep kevin | tail -n 1 | awk '{print $2}'
+  557  apt install lsof
+  558  lsof
+  559  lsof | head -n 6
+  560  lsof | grep 22
+  561  lsof | grep :22
+  562  lsof -i
+  563  lsof -i :22
+  564  lsof -i :22 | head
+  565  lsof -i :22 | head -n 1
+  566  lsof -i :22 | head -n 2
+  567  lsof -i :22 | head -n 2 | tail -n 1
+  568  lsof -i :22 | head -n 2 | tail -n 1 >> process_notes.txt 
+  569  cat process_notes.txt 
+  570  echo "======== Parent PID of your current shell ========" >> process_notes.txt 
+  571  cat process_notes.txt 
+  572  man ps
+  573  ps -o
+  574  ps -o 
+  575  ps o
+  576  ps -o ppid= -p $$
+  577  ps -o ppid= -p $$ >> process_notes.txt 
+  578  htop
+  579  ps aux
+  580  ps aux |grep 1179820
+  581  cat process_notes.txt 
+  582  echo "======== process tree for my session ========" >> process_notes.txt 
+  583  cat process_notes.txt 
+  584  pstree
+  585  pstree -p $$
+  586  ps fx 
+  587  ps fx | grep $$
+  588  ps fx --forest | grep $$
+  589  ps fx | grep $$
+  590  ps fx | grep $$ >> process_notes.txt 
+  591  cat process_notes.txt 
+  592  ehco "==========================================" >> my_history.txt 
+  593  date >> my_history.txt 
+  594  ehco "==========================================" >> my_history.txt 
+  595  history | tail -50 my_history.txt 
+  596  history | tail -50 >> my_history.txt 

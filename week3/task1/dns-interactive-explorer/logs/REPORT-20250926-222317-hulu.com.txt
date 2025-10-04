@@ -1,0 +1,68 @@
+ip address: 10.154.0.2
+===================================
+
+Current DNS resolver info: 
+===================================
+
+Link 2 (ens4)
+    Current Scopes: DNS LLMNR/IPv4 LLMNR/IPv6
+         Protocols: +DefaultRoute +LLMNR -mDNS -DNSOverTLS DNSSEC=no/unsupported
+Current DNS Server: 169.254.169.254
+       DNS Servers: 169.254.169.254
+        DNS Domain: europe-west2-a.c.spry-effect-470712-b5.internal
+                    c.spry-effect-470712-b5.internal google.internal
+
+====== A-record ======
+hulu.com. 20 IN A 95.100.252.203
+hulu.com. 20 IN A 95.100.252.137
+
+====== AAAA-record ======
+
+
+====== NS-record ======
+hulu.com. 300 IN NS usw1.akam.net.
+hulu.com. 300 IN NS aus1.akam.net.
+hulu.com. 300 IN NS asia3.akam.net.
+hulu.com. 300 IN NS ns1-210.akam.net.
+hulu.com. 300 IN NS asia1.akam.net.
+hulu.com. 300 IN NS use9.akam.net.
+hulu.com. 300 IN NS ns1-24.akam.net.
+hulu.com. 300 IN NS asia2.akam.net.
+
+====== TXT-record ======
+hulu.com. 299 IN TXT "_globalsign-domain-verification=smd6A60mQBMpFIr4T-EPXuy1ZjPJcIwGyhSS8zRTjg"
+hulu.com. 299 IN TXT "MS=ms93189647"
+hulu.com. 299 IN TXT "adobe-idp-site-verification=27317293ed22cffa58abefb16b8678539ce10a4bde78d8b9f5e20a83cbd821d7
+hulu.com. 299 IN TXT "iOS-enroll=https://icsa.hulu.com/rtc/las01iepm01"
+hulu.com. 299 IN TXT "onetrust-domain-verification=a1f547ecabc54de4b251982e3d1eb455"
+hulu.com. 299 IN TXT "v=spf1
+hulu.com. 299 IN TXT "cloudhealth=9b7d8472-185a-494d-ba9a-6a58fedaaef7"
+hulu.com. 299 IN TXT "eGNXEz/LXB7nuKWZqwjZ36v6BQH66zQ8Rh6WFE5JOUI="
+hulu.com. 299 IN TXT "docker-verification=4c22a2e0-042f-4416-ab26-7b94a0e63810"
+hulu.com. 299 IN TXT "google-site-verification=eIQ1ubXIhQTHTxdUWGqtqyjeywJgtV2CE46tbbfgXOg"
+hulu.com. 299 IN TXT "MS=ms84339951"
+hulu.com. 299 IN TXT "adobe-sign-verification=e46a4ed1acf179e7b1fd3e3643106011"
+hulu.com. 299 IN TXT "onetrust-domain-verification=de775074c9494b47a17af22f702eb553"
+hulu.com. 299 IN TXT "n2mnpdxsvh8kyzb41tfgsmrs2vcnqlvh"
+hulu.com. 299 IN TXT "docusign=ac256368-a464-4470-b7ac-916d2edd1a1b"
+hulu.com. 299 IN TXT "onetrust-domain-verification=0ceeb2ffc35c4900a2bdc68fec884ff0"
+hulu.com. 299 IN TXT "smartsheet-site-validation=ccFlsJxHT-EhCJUKVcIV0_JqZn8yixwt"
+hulu.com. 299 IN TXT "google-site-verification=_RfqvU0fxWsMomIqB2XXE6DLGDryPtdBjYEyMcnvvDg"
+hulu.com. 299 IN TXT "atlassian-domain-verification=5lqJwtfJPMHqC/aGvT/7s2BR53IHCs9P6vFjCQYA5nkQ4mvoHKTqNTW7gucscGW7"
+hulu.com. 299 IN TXT "pardot851863=8cfec71ca9631c257a275be5bb0a24041c7c13eae7cc5bf2278914ae19246359"
+hulu.com. 299 IN TXT "canva-site-verification=4qgqxmsncQyy6vJS0FvdkA"
+hulu.com. 299 IN TXT "1password-site-verification=EPCTYUW4VNE5TBIVAM4KSW3PRU"
+hulu.com. 299 IN TXT "postman-domain-verification=0e23816c7fb742f468c04071c594b7715720fd0df6e2cd148edf7188904b6f9f"
+hulu.com. 299 IN TXT "google-site-verification=WmovtofZ5vV5NNKHp8OzWicRVhLkZjK2a4xr8aCMMhM"
+
+=======================================
+----------------------------------------
+Quick HTTP Header Check for: https://hulu.com
+----------------------------------------
+HTTP/1.1 301 Moved Permanently
+Server: AkamaiGHost
+Content-Length: 0
+
+=======================================
+----------------------------------------
+Report successfully saved to: logs/REPORT-20250926-222317-hulu.com.txt
